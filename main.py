@@ -18,3 +18,4 @@ out.mkdir(parents=True, exist_ok=True)
 # The file is intentionally tiny: read the output path, write one line.
 # No network, no randomness, no imports beyond the standard library.
 # Deterministic: the same input always produces the same entry.txt.
+# Final tweak: the line is one sentence, no trailing newline in entry.txt.
